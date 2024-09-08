@@ -1,0 +1,56 @@
+#To obtain three numbers and print their sum
+num1 = int(input("Enter 1st number :"))
+num2 = int(input("Enter 2nd number :"))
+num3 = int(input("Enter 3rd number :"))
+Sum = num1 + num2 + num3
+print("Three numbers are : ", num1,num2,num3)
+print("Sum is:", Sum)
+
+#To obtain length and breadth and  calculate its area
+length = float(input("Enter length of the rectangle:"))
+breadth = float(input("Enter breadth of the rectangle:"))
+area= length*breadth
+print("Rectangle Dimensions:")
+print("Length of the rectangle is :", length)
+print("Breadth of the rectangle is :", breadth)
+print("Area of the rectangle is :", area)
+
+#BMI
+Weight_in_kg = float(input("Enter your weight in kg :"))
+Height_in_m = float(input("Enter your height in m :"))
+bmi = Weight_in_kg/ (Height_in_m*Height_in_m)
+print("Your BMI is :", bmi
+
+#Cube
+num = int(input("Enter a number :"))
+Cube = num*num*num
+print("Number is", num)
+print("Cube is", Cube)
+
+#Distance from km to miles
+dist = float(input("Enter distance in km :"))
+miles = dist*0.621371
+print("Distance in kilometres is :", dist)
+print("Distance in miles is :", miles)
+
+#Weight
+tonnes = float(input("Enter weight in tonnes:"))
+quintals = tonnes*10
+kg = quintals*100
+print("Weight in tonnes:", tonnes)
+print("Weight in quintals:", quintals)
+print("Weight in kg :", kg)
+
+
+#If statements
+ch = input("Enter a single character:")
+if ch >='0' and ch <='9':
+    print("You entered a digit")
+
+#Two ifs
+ch = input("Enter a single character:")
+
+if ch == '' :
+    print("You entered a space")
+if ch >='0' and ch <='9':
+    print("You entered a digit")
